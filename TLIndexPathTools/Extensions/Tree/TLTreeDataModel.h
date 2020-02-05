@@ -40,7 +40,7 @@
  and collapsed. It also provides a mechanism to lazy load nodes.
  */
 
-#import "../../Data Model/TLIndexPathDataModel.h"
+#import "TLIndexPathDataModel.h"
 
 @interface TLTreeDataModel : TLIndexPathDataModel
 @property (copy, nonatomic, readonly) NSArray *collapsedNodeIdentifiers;

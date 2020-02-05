@@ -6,23 +6,17 @@ import PackageDescription
 let package = Package(
     name: "TLIndexPathTools",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v10)
     ],
     products: [
         .library(name: "TLIndexPathTools",
-                 targets: ["TLIndexPathToolsCore"])
+                 targets: ["TLIndexPathTools"]),
     ],
     targets: [
-        .target(name: "TLIndexPathToolsCore",
+        .target(name: "TLIndexPathTools",
                 dependencies: [],
                 path: "TLIndexPathTools",
                 sources: ["Controllers", "Data Model", "Extensions", "View Controllers"]
-//                sources: ["TLIndexPathTools"]
-        ),
-        
-//        .testTarget(
-//            name: "TLIndexPathToolsTests",
-//            dependencies: ["TLIndexPathToolsCore"],
-//            path: "TLIndexPathToolsTests"),
+        )
     ]
 )

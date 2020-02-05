@@ -22,7 +22,7 @@
 //  THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "TLIndexPathUpdates.h"
+#import <TLIndexPathUpdates.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

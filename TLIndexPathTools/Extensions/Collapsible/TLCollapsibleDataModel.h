@@ -21,7 +21,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "../../Data Model/TLIndexPathDataModel.h"
+#import "TLIndexPathDataModel.h"
 
 @interface TLCollapsibleDataModel : TLIndexPathDataModel
 @property (copy, nonatomic, readonly) NSSet *collapsedSectionNames;
