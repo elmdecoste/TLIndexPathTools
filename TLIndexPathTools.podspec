@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.ios.deployment_target = '8.0'
   s.source_files = 'TLIndexPathTools/**/*.{h,m}'
+  s.exclude_files = 'TLIndexPathTools/include/*'
   s.frameworks = 'UIKit', 'QuartzCore', 'CoreData', 'Foundation'
   s.requires_arc = true
 end
