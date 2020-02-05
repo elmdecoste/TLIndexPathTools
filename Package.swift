@@ -17,6 +17,7 @@ let package = Package(
                 dependencies: [],
                 path: "TLIndexPathTools",
                 sources: ["Controllers", "Data Model", "Extensions", "View Controllers"]
-        )
+        ),
+        .testTarget(name: "TLIndexPathToolsTests", dependencies: ["TLIndexPathTools"], path: "TLIndexPathToolsTests")
     ]
 )

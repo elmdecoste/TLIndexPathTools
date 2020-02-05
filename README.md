@@ -21,6 +21,9 @@ Add "TLIndexPathTools" to your podfile or, if you're not using CocoaPods:
 
 <!--CoreData is required for Core Data integration and because `TLIndexPathSectionInfo` implements the `NSFetchedResultsSectionInfo` protocol. QuartzCore is required because the Grid extension uses it.-->
 
+### Swift Package Manager
+Adding TLIndexPathTools to a project using SPM is as easy as adding it in your Xcode project's dependency (File -> Swift Packages -> Add Package Dependency) and pasting the clone URL for this repository in the text field
+
 ## Overview
 
 `NSArray` is the standard construct for simple table and collection view data models. However, if multiple sections are involved, the typical setup is an `NSArray` containing section names and an `NSDictionary` of `NSArrays` containing data items, keyed by section name. Since table and collection views work with `NSIndexPaths`, the following pattern is used repeatedly in data source and delegate methods:

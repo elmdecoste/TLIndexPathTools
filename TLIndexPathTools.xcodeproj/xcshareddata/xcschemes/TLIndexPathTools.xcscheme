@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "TLIndexPathTools::TLIndexPathTools::ProductTarget"
-               BuildableName = "TLIndexPathTools"
+               BlueprintIdentifier = "TLIndexPathTools::TLIndexPathTools"
+               BuildableName = "TLIndexPathTools.framework"
                BlueprintName = "TLIndexPathTools"
                ReferencedContainer = "container:TLIndexPathTools.xcodeproj">
             </BuildableReference>
@@ -50,8 +50,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "TLIndexPathTools::TLIndexPathTools::ProductTarget"
-            BuildableName = "TLIndexPathTools"
+            BlueprintIdentifier = "TLIndexPathTools::TLIndexPathTools"
+            BuildableName = "TLIndexPathTools.framework"
             BlueprintName = "TLIndexPathTools"
             ReferencedContainer = "container:TLIndexPathTools.xcodeproj">
          </BuildableReference>
