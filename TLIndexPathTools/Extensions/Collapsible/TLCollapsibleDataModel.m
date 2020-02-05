@@ -22,7 +22,7 @@
 //  THE SOFTWARE.
 
 #import "TLCollapsibleDataModel.h"
-#import "TLIndexPathSectionInfo.h"
+#import "../../Data Model/TLIndexPathSectionInfo.h"
 
 @implementation TLCollapsibleDataModel
 

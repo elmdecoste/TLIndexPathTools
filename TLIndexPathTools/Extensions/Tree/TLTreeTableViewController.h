@@ -21,7 +21,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "TLTableViewController.h"
+#import "../../View Controllers/TLTableViewController.h"
 #import "TLTreeDataModel.h"
 #import "TLIndexPathTreeItem.h"
 

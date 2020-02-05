@@ -21,7 +21,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "TLIndexPathItem.h"
+#import "../../Data Model/TLIndexPathItem.h"
 
 @interface TLIndexPathTreeItem : TLIndexPathItem
 @property (strong, nonatomic, readonly) NSArray *childItems;

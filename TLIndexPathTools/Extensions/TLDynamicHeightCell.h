@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TLDynamicSizeView.h"
+#import "../View Controllers/TLDynamicSizeView.h"
 
 /*
  Table view cells can use this base class in conjunction with
